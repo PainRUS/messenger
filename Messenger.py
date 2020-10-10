@@ -1,7 +1,7 @@
 def send_message(text, author):
     if isinstance(text, str) and isinstance(author, str):
 
-        # todo: сохранить в БД
+        """todo: сохранить в БД"""
         print(text, author)
         return  "OK"
     else:
@@ -15,7 +15,7 @@ print(result)
 result = send_message(2, "Иван")
 print(result)
 
-class Messenger:
+#class Messenger:
     # db
     # send_message
     # ...
