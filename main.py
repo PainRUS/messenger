@@ -1,5 +1,6 @@
 import time
 
+
 class Messenger:
     def __init__(self):
         self.db = [
